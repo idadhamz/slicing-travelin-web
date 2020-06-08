@@ -1,0 +1,617 @@
+
+/*---------------------
+Header
+-----------------------*/
+
+.inner-header {
+    padding: 39px 0;
+}
+
+.inner-header .logo {
+    padding: 12px 0;
+}
+
+.inner-header .logo a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.inner-header .logo a p {
+    font-size: 24px;
+    color: #75DAAD;
+    font-weight: bold;
+}
+
+.inner-header .logo a p span {
+    font-size: 24px;
+    color: black;
+}
+
+.inner-header .advanced-search .input-group button {
+    font-size: 16px;
+    color: #ffffff;
+    position: absolute;
+    right: -3px;
+    top: -1px;
+    border: 1px solid #e7ab3c;
+    background: #e7ab3c;
+    padding: 12px 16px 12px;
+    cursor: pointer;
+}
+
+.inner-header .nav-right {
+    padding: 10px 0;
+}
+
+.inner-header .nav-right li {
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0px 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.inner-header .nav-right li.active a {
+    text-decoration: none;
+    color: #75DAAD;
+}
+
+.inner-header .nav-right li:hover a {
+    text-decoration: none;
+    color: #75DAAD;
+}
+
+.inner-header .nav-right li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.inner-header .nav-right li.choose-lang a {
+    text-decoration: none;
+    color: gray;
+}
+
+.inner-header .nav-right li.choose-lang:hover a {
+    text-decoration: none;
+    color: #75DAAD;
+}
+
+.inner-header .nav-right li.choose-lang:hover .lang-hover {
+    opacity: 1;
+    visibility: visible;
+    top: 50px;
+}
+
+.inner-header .nav-right li.choose-lang .lang-hover {
+    position: absolute;
+    right: -10px;
+    top: 100px;
+    width: 175px;
+    background: #75DAAD;
+    z-index: 99;
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-box-shadow: 0 13px 32px rgba(51, 51, 51, 0.1);
+    box-shadow: 0 13px 32px rgba(51, 51, 51, 0.1);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.inner-header .nav-right li.choose-lang .lang-hover ul {
+    padding: 0;
+    text-align: center;
+}
+
+.inner-header .nav-right li.choose-lang .lang-hover li {
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0;
+}
+
+.inner-header .nav-right li.choose-lang .lang-hover li a {
+    color: white;
+}
+
+.inner-header .nav-right li.choose-lang .lang-hover li a:hover {
+    text-decoration:underline;
+}
+
+/*---------------------
+Intro
+-----------------------*/
+
+.inner-intro {
+    margin: 0px 0px;
+}
+
+.inner-intro .intro-about {
+    margin: 70px 0px;
+}
+
+.inner-intro .intro-about p.type {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.inner-intro .intro-about p.title {
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.inner-intro .intro-about p.desc {
+    font-size: 14px;
+    color: gray;
+    line-height: 30px;
+}
+
+.inner-intro .intro-about p.visitor {
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.inner-intro .intro-about button.btn-book {
+    background-color: #75DAAD;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+
+.inner-intro .intro-about button.btn-book:hover {
+    background-color: teal;
+}
+
+.inner-intro .intro-about button.btn-book span {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.inner-intro .intro-image {
+    background-color: white;
+    box-shadow: 0 13px 32px rgba(51, 51, 51, 0.1);
+    border: 1px solid rgba(51, 51, 51, 0.1);
+    width: 450px;
+    height: 400px;
+    margin: 40px 0px;
+    border-radius: 5px;
+}
+
+.inner-intro .intro-image img {
+    width: 450px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.inner-input {
+    margin: 50px 0px;
+}
+
+.inner-input .input-book {
+    height: auto;
+    border: 1px solid #75daad;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.inner-input .input-book .form-input {
+    display: inline-block;
+}
+
+.inner-input .input-book .form-input p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.inner-input .input-book .form-input button.btn-book {
+    background-color: #75DAAD;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.inner-input .input-book .form-input button.btn-book:hover {
+    background-color: teal;
+}
+
+.inner-input .input-book .form-input button.btn-book span {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.class-form {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 13px;
+    box-shadow: none;
+    width: 100px;
+}   
+
+.col-half-offset{
+    margin-left:4.166666667%
+}
+
+select {
+    cursor: pointer;
+}
+
+.form-control:focus {
+    border-bottom: 2px solid #75daad;
+    box-shadow: none;
+}
+
+.inner-type {
+    margin: 50px 0px;
+}
+
+.inner-type .col-img {
+    margin: 15px 0px;
+}
+
+.inner-type img.type-img {
+    width: 100%;
+    height: 225px;
+    border-radius: 5px;
+}
+
+.inner-type .col-img:hover .type-hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.inner-type .col-img .text-type {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.inner-type .col-img:hover .text-type {
+    visibility: hidden;
+}
+
+.inner-type .col-img .type-hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    background: white;
+    z-index: 99;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-box-shadow: 0 13px 32px rgba(51, 51, 51, 0.1);
+    box-shadow: 0 13px 32px rgba(51, 51, 51, 0.1);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.inner-type .col-img .type-hover p {
+    margin: 10px 0px;
+    font-size: 14px;
+}
+
+.inner-type .col-img .type-hover p.visitor {
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.inner-type .col-img .type-hover p.title {
+    font-weight: bold;
+}
+
+.inner-type .col-img .type-hover p.visitor {
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.inner-type .col-img .type-hover .btn-type {
+    background-color: #75DAAD;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 35px;
+    font-size: 14px;
+}
+
+.inner-type .col-img .type-hover .btn-type:hover {
+    background-color: teal;
+}
+
+.inner-type .intro-type {
+    margin: 0px 70px;
+}
+
+.inner-type .intro-type p.title {
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.inner-type .intro-type p.desc {
+    font-size: 14px;
+    color: gray;
+    line-height: 30px;
+    border-left: 3px solid gray;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.inner-type .intro-type button.btn-type {
+    background-color: #75DAAD;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+
+.inner-type .intro-type button.btn-type:hover {
+    background-color: teal;
+}
+
+.popular-section h1 {
+    text-align: center;
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.inner-popular {
+    margin: 100px 0px;
+}
+
+.inner-popular .col-img {
+    margin: 15px 0px;
+    border-radius: 5px;
+}
+
+.inner-popular .col-img:hover .name-popular{
+    border-bottom: 2px solid #75DAAD;
+}
+
+.inner-popular img.type-img {
+    width: 100%;
+    height: 325px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.inner-popular .col-img .name-popular {
+    width: 100%;
+    height: 90px;
+    padding: 30px 10px;
+    border: 1px solid #dadada;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.inner-popular .col-img .name-popular .position-popular {
+    display: block;
+    clear: both;
+}
+
+.inner-popular .col-img .name-popular .position-popular span {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.inner-popular .col-img .name-popular .position-popular a {
+    background-color: #75DAAD;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-top: -7px;
+    float: right;
+}
+
+.inner-popular .col-img .name-popular .position-popular a:hover {
+    background-color: teal;
+}
+
+.inner-popular .col-img .name-popular .position-popular a span {
+    font-size: 14px;
+    color: white;
+}
+
+.inner-about {
+    margin: 70px 0px;
+}
+
+.inner-about .intro-about {
+    margin: 0px 70px;
+    text-align: center;
+}
+
+.inner-about .intro-about img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.inner-about .intro-about p.title-dadi {
+    font-size: 24px;
+    color: black;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+
+.inner-about .intro-about p.desc {
+    font-size: 15px;
+    color: black;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.inner-about .intro-about button.btn-about {
+    background-color: #75DAAD;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+
+.inner-about .intro-about button.btn-about:hover {
+    background-color: teal;
+}
+
+.footer-section {
+    width: 100%;
+    height: auto;
+    background-color: rgb(46, 168, 113);
+}
+
+.footer-section .inner-footer {
+    padding: 25px 0px;
+}
+
+.footer-section .logo {
+    padding: 12px 0;
+}
+
+.footer-section .logo {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.footer-section .logo p {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+
+.footer-section .logo p span {
+    font-size: 24px;
+    color: black;
+}
+
+.footer-section .nav-right {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.footer-section .nav-right li {
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0px 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.footer-section .nav-right li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-section .nav-right li:hover a {
+    text-decoration: underline;
+}
+
+/* ------------------------------ Responsive Media Styles ---------------------------- */
+
+@media only screen and (max-width: 767px) {
+    
+    .inner-header .nav-right li {
+        font-size: 13px;
+    }
+    
+    .inner-header .nav-right li.choose-lang:hover .lang-hover {
+        opacity: 1;
+        visibility: visible;
+        top: 70px;
+    }
+    
+    .inner-header .nav-right li.choose-lang .lang-hover {
+        position: absolute;
+        right: 20px;
+        top: 90px;
+        width: 135px;
+        background: #75DAAD;
+        z-index: 99;
+        text-align: left;
+        padding: 10px;
+        border-radius: 5px;
+        opacity: 0;
+        visibility: hidden;
+        -webkit-box-shadow: 0 13px 32px rgba(51, 51, 51, 0.1);
+        box-shadow: 0 13px 32px rgba(51, 51, 51, 0.1);
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    
+    .inner-intro .intro-about {
+        margin: 20px 0px;
+        padding: 0px 20px;
+    }
+    
+    .inner-intro .intro-image {
+        width: 100%;
+        height: 100%;
+        margin: 20px 0px;
+    }
+    
+    .inner-intro .intro-image img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .inner-input {
+        margin: 50px 0px;
+    }
+    
+    .inner-input .input-book {
+        box-shadow: 0 13px 32px rgba(51, 51, 51, 0.1);
+        border: 1px solid rgba(51, 51, 51, 0.1);
+    }
+    
+    .inner-type .intro-type {
+        margin: 20px 20px;
+    }
+    
+    .inner-type .col-img .type-hover {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    
+    .inner-about .intro-about p.desc {
+        font-size: 14px;
+    }
+
+}
